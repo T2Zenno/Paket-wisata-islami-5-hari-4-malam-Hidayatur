@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidayatur - Mitra Terpercaya Umrah Anda</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .glow-effect {
+            box-shadow: 0 0 10px rgba(59, 130, 246, 0.5), 0 0 20px rgba(59, 130, 246, 0.3);
+        }
+        .glow-hover:hover {
+            box-shadow: 0 0 15px rgba(59, 130, 246, 0.7), 0 0 30px rgba(59, 130, 246, 0.5);
+        }
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('image/hero-placeholder.webp');
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            filter: blur(3px); /* Apply blur to background only */
+            z-index: 1;
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2; /* Ensure content is above blurred background */
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Header -->
+    <header class="sticky top-0 bg-gray-800 shadow-lg z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-400">Hidayatur</div>
+            <ul class="flex space-x-6">
+                <li><a href="#hero" class="hover:text-blue-400 transition">Beranda</a></li>
+                <li><a href="#about" class="hover:text-blue-400 transition">Tentang</a></li>
+                <li><a href="#services" class="hover:text-blue-400 transition">Layanan</a></li>
+                <li><a href="#gallery" class="hover:text-blue-400 transition">Galeri</a></li>
+                <li><a href="#testimony" class="hover:text-blue-400 transition">Testimoni</a></li>
+                <li><a href="#contact" class="hover:text-blue-400 transition">Kontak</a></li>
+            </ul>
+            <a href="#contact" class="bg-blue-500 text-white px-4 py-2 rounded-full glow-effect hover:bg-blue-600 transition">Pesan Sekarang</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero" class="h-screen flex items-center justify-center text-center relative">
+        <div class="hero-bg"></div>
+        <div class="hero-content container mx-auto px-4">
+            <h1 class="text-5xl font-bold mb-4 text-blue-400 text-shadow-black">Wujudkan Perjalanan Umrah Anda</h1>
+            <p class="text-xl mb-6 text-shadow-black">Nikmati pengalaman ibadah umrah yang lancar dan penuh makna bersama Hidayatur, mitra terpercaya Anda.</p>
+            <a href="#contact" class="bg-blue-500 text-white px-6 py-3 rounded-full glow-effect hover:bg-blue-600 transition">Mulai Perjalanan</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-16">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <h2 class="text-3xl font-bold mb-4 text-blue-400">Tentang Hidayatur</h2>
+                <p class="text-lg mb-6">Hidayatur adalah mitra terpercaya Anda dalam menjalankan ibadah umrah dengan pelayanan terbaik dan berkualitas. Kami berkomitmen untuk memberikan pengalaman spiritual yang kaya dan tak terlupakan, memastikan setiap langkah perjalanan Anda berjalan mulus.</p>
+                <a href="#contact" class="bg-blue-500 text-white px-6 py-3 rounded-full glow-effect hover:bg-blue-600 transition">Pelajari Lebih Lanjut</a>
+            </div>
+            <div class="md:w-1/2">
+                <img src="image/about.png" alt="Tentang Hidayatur" class="rounded-lg glow-effect">
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services -->
+    <section id="services" class="py-16 bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-400">Layanan Kami</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4">
+                <!-- 8 service images -->
+                <div class="aspect-square bg-gray-700 rounded-lg glow-effect"><img src="image/s1.png" alt="Layanan 1" class="w-full h-full object-cover rounded-lg"></div>
+                <div class="aspect-square bg-gray-700 rounded-lg glow-effect"><img src="image/s2.png" alt="Layanan 2" class="w-full h-full object-cover rounded-lg"></div>
+                <div class="aspect-square bg-gray-700 rounded-lg glow-effect"><img src="image/s3.png" alt="Layanan 3" class="w-full h-full object-cover rounded-lg"></div>
+                <div class="aspect-square bg-gray-700 rounded-lg glow-effect"><img src="image/s4.png" alt="Layanan 4" class="w-full h-full object-cover rounded-lg"></div>
+                <div class="aspect-square bg-gray-700 rounded-lg glow-effect"><img src="image/s5.png" alt="Layanan 5" class="w-full h-full object-cover rounded-lg"></div>
+                <div class="aspect-square bg-gray-700 rounded-lg glow-effect"><img src="image/s6.png" alt="Layanan 6" class="w-full h-full object-cover rounded-lg"></div>
+                <div class="aspect-square bg-gray-700 rounded-lg glow-effect"><img src="image/s7.png" alt="Layanan 7" class="w-full h-full object-cover rounded-lg"></div>
+                <div class="aspect-square bg-gray-700 rounded-lg glow-effect"><img src="image/s8.png" alt="Layanan 8" class="w-full h-full object-cover rounded-lg"></div>
+            </div>
+            <div class="text-center mt-8">
+                <a href="#contact" class="bg-blue-500 text-white px-6 py-3 rounded-full glow-effect hover:bg-blue-600 transition">Jelajahi Semua Layanan</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-400">Galeri</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <!-- 8 gallery images -->
+                <img src="image/g1 (1).png" alt="Galeri 1" class="rounded-lg glow-effect">
+                <img src="image/g1 (2).png" alt="Galeri 2" class="rounded-lg glow-effect">
+                <img src="image/g1 (3).png" alt="Galeri 3" class="rounded-lg glow-effect">
+                <img src="image/g1 (4).png" alt="Galeri 4" class="rounded-lg glow-effect">
+                <img src="image/g1 (5).png" alt="Galeri 5" class="rounded-lg glow-effect">
+                <img src="image/g1 (6).png" alt="Galeri 6" class="rounded-lg glow-effect">
+                <img src="image/g1 (7).png" alt="Galeri 7" class="rounded-lg glow-effect">
+                <img src="image/g1 (8).png" alt="Galeri 8" class="rounded-lg glow-effect">
+            </div>
+            <div class="text-center mt-8">
+                <a href="#contact" class="bg-blue-500 text-white px-6 py-3 rounded-full glow-effect hover:bg-blue-600 transition">Lihat Lebih Banyak</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimony -->
+    <section id="testimony" class="py-16 bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-400">Testimoni Klien Kami</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-700 p-6 rounded-lg glow-effect">
+                    <p class="mb-4">"Hidayatur membuat perjalanan umrah saya tak terlupakan. Perhatian mereka terhadap detail luar biasa!"</p>
+                    <p class="font-bold">Ahmad S.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg glow-effect">
+                    <p class="mb-4">"Tim yang sangat profesional, memastikan semuanya berjalan lancar. Sangat direkomendasikan!"</p>
+                    <p class="font-bold">Fatima R.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg glow-effect">
+                    <p class="mb-4">"Pengalaman umrah terbaik yang pernah saya miliki. Terima kasih, Hidayatur, atas layanan luar biasa!"</p>
+                    <p class="font-bold">Hassan M.</p>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <a href="#contact" class="bg-blue-500 text-white px-6 py-3 rounded-full glow-effect hover:bg-blue-600 transition">Bagikan Pengalaman Anda</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-400">Hubungi Kami</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h3 class="text-2xl font-bold mb-4 text-blue-400">Informasi Kontak</h3>
+                    <p class="text-lg mb-2"><strong>Email:</strong> info@hidayatur.co.id</p>
+                    <p class="text-lg mb-2"><strong>Alamat:</strong> Jl. Contoh No. 123, Jakarta, Indonesia</p>
+                    <p class="text-lg mb-2"><strong>Telepon:</strong> +62 21 1234 5678</p>
+                    <p class="text-lg mb-6"><strong>Jam Buka:</strong> Senin - Jumat, 08:00 - 17:00 WIB</p>
+                    <a href="https://wa.me/+622112345678" target="_blank" class="bg-blue-500 text-white px-6 py-3 rounded-full glow-effect hover:bg-blue-600 transition">Hubungi Sekarang via WhatsApp</a>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="image/location.png" alt="Peta Lokasi" class="rounded-lg glow-effect">
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <p class="text-lg mb-4">Ikuti kami di media sosial:</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="https://www.instagram.com/hidayatur.id/" target="_blank" class="text-white hover:text-blue-400 transition">Instagram</a>
+                    <a href="https://www.tiktok.com/@hidayatur.id" target="_blank" class="text-white hover:text-blue-400 transition">TikTok</a>
+                    <a href="https://www.youtube.com/channel/UC0SVIXma-_XpEkJTr6Eg8Cg" target="_blank" class="text-white hover:text-blue-400 transition">YouTube</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-4">© 2025 Hidayatur. Hak cipta dilindungi.</p>
+        </div>
+    </footer>
+</body>
+</html>
